@@ -8,6 +8,16 @@
 8. in Atlas: Set the allowed ip addresses to 'all' (0.0.0.0).
 9. Download the final version to a new dir and make sure it installs and runs correctly, preferably on a fresh machine.
 
+## todo
+Tasks
+1. change each post to have an option to attach a video.
+    1.1 read about cloudinary.
+    1.2 change the draft component - to add the option to ad/remove exactly 1 video.
+    1.3 save the metadata of the video to our mongodb database.
+2. frontend Tasks
+    2.1 in create,tsx component: using an effect , to change the automatic focus of a new post to the 'title' textbox.
+    2.2 update the post component - to show the video if one exists.
+3. bonus !
 
 ## Task
 this task's main goal about adding videos to our posts website, and is splitted to data transfer from hw1, video part and front end part.
